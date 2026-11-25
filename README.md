@@ -1,13 +1,15 @@
 # VIVA Smart – App quản lý công việc & báo cáo
 
-Bản mẫu giao diện (mockup) 5 màn hình, dữ liệu giả, chưa có đăng nhập/database.
+Bản **demo web** (dùng trên máy tính) theo tài liệu *Đề xuất App Quản lý Công việc VIVA* (24/11/2026).
+Dữ liệu giả, chưa có đăng nhập/database. Mục đích: trình Giám đốc duyệt trước khi làm bản thật.
 
-Mở xem: tải về và mở file `index.html` bằng trình duyệt.
+**Cách xem:** tải file `index.html` về rồi mở bằng trình duyệt (Chrome, Edge…).
 
-1. Điện thoại – Việc hôm nay của Kỹ thuật
-2. Điện thoại – Chi tiết việc, cập nhật tiến độ, chụp ảnh
-3. Điện thoại – Nộp báo cáo cuối ngày
-4. Laptop – Dashboard Chủ tịch/Giám đốc
-5. Laptop – Giám đốc duyệt/trả lại báo cáo
+## Có gì trong demo
+- **Tổng quan (dashboard):** doanh số ngày/tuần/tháng so kỳ trước; việc đang làm/tồn/quá hạn theo phòng; tỉ lệ nộp báo cáo đúng hạn; thu chi, công nợ; khiếu nại chưa xử lý.
+- **Công việc:** giao việc (tiêu đề, người nhận, hạn, ưu tiên, khách hàng); 5 trạng thái; cập nhật tiến độ kèm file; nhắc hạn; lọc theo phòng, người, trạng thái, khách; xuất Excel.
+- **Báo cáo:** nộp báo cáo cuối ngày (chọn việc đã xong, việc tồn + lý do, kế hoạch mai, đính kèm, chỉ số theo phòng, hạn 18h); trưởng phòng/Giám đốc duyệt hoặc trả lại kèm ghi chú; thấy ai chưa nộp, nộp trễ; tổng hợp tuần/tháng; xuất Excel.
+- **Khách hàng:** hồ sơ, nguồn khách, lịch sử mua/lắp đặt/bảo hành, nhắc hết hạn bảo hành, lịch chăm sóc, khiếu nại, công việc liên quan.
+- **Phân quyền:** đổi “Xem với vai trò” ở góc trên (Giám đốc, trưởng phòng, nhân viên, kế toán) để thấy mỗi người xem/làm được gì, theo Mục 7 của đề xuất.
 
-Công nghệ dự kiến cho bản thật: Supabase + Cloudflare Pages.
+Bản điện thoại sẽ làm sau. Công nghệ dự kiến cho bản thật: Supabase + Cloudflare Pages.
